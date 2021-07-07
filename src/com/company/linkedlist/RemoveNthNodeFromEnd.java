@@ -30,7 +30,7 @@ public class RemoveNthNodeFromEnd {
         Node prev= null;
         int i =0;
         while(curr!=null){
-            if(count==n){
+             if(count==n){
                 prev.next=curr.next;
                 curr.next=null;
                 break;
