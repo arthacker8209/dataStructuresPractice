@@ -32,7 +32,7 @@ public class KnapsackTopDown extends KnapsackMemoization {
             for (int j= 0; j<W+1; j++){
                 System.out.print(dp[i][j]+" ");
             }
-            System.out.println();
+              System.out.println();
         }
     }
 
